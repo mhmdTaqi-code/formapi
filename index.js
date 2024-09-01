@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 // إعداد التطبيق
 const app = express();
-const user = require("./models/user")
+const user = require("./user")
 app.use(express.json());
 
 // الاتصال بقاعدة البيانات
